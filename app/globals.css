@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin 'tailwindcss-animate';
+@plugin "tailwindcss-react-aria-components";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  height: 100%;
+}
